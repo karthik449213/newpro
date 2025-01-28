@@ -1,0 +1,16 @@
+body{
+       background-color: black;
+       color: white;
+}
+.button{
+         height: 120px;
+         width: 120px;
+         border-radius: 60px;
+         background: transparent;
+}
+.image{
+      height:110px;
+      width: 110px;
+    
+   
+}
