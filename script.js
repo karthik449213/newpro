@@ -67,8 +67,9 @@
         }
         localStorage.setItem('score',JSON.stringify(score));
            updateScore();
-          document.querySelector('.js-choice').innerHTML=`${result}`;
-           document.querySelector('.js-result').innerHTML=`you <img src="${playerMove}-emoji.png">-computerMove <img src="${comp}-emoji.png"> `;
+          document.querySelector('.js-choice').innerHTML=` RESULT:${result}`;
+           document.querySelector('.js-result').innerHTML=`<img src="karthik.jpg"  class="images">-- <img src="${playerMove}-emoji.png" class="images">-<img
+           src="images.png" class="images" >--- <img src="${comp}-emoji.png" class="images"> `;
 
      
  
