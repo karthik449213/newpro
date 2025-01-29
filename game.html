@@ -8,27 +8,30 @@
         </head>
         <body>
             <p>Rock Paper Scissor</p>
-            <button
-        onclick="
-            Result('Rock');
-       
-        "  class="button" ><img src="rock-emoji.png" class="image"> </button>
-        <button
-        onclick=" Result('Paper');
-
-        " class="button">
-        <img src="paper-emoji.png" class="image">
-        </button>
-        <button onclick=" Result('Scissors');
-  
-  " class="button"
-
-        ><img src="scissors-emoji.png" class="image"></button>
-
+            <div class="container">
+                <button
+                onclick="
+                    Result('Rock');
+               
+                "  class="button" ><img src="rock-emoji.png" class="image"> </button>
+                <button
+                onclick=" Result('Paper');
+        
+                " class="button">
+                <img src="paper-emoji.png" class="image">
+                </button>
+                <button onclick=" Result('Scissors');
+          
+          " class="button"
+        
+                ><img src="scissors-emoji.png" class="image"></button>
+        
+            </div>
+            
         <div class="js-choice"></div>
         <div class="js-result"></div>
         <div class="js-score"></div>
-       <button
+       <button class="js-reset"
         onclick="
         score.Wins=0;
         score.Losses=0;
