@@ -2,15 +2,79 @@ body{
        background-color: black;
        color: white;
 }
+p{
+         text-align: center;
+         font-size: 45px;
+         font-family: arial;
+
+}
+.container{
+           position: relative;
+           display: grid;
+           grid-template-columns: 100px 100px 100px;
+           gap:60px;
+           left: 30vw;
+
+}
 .button{
          height: 120px;
          width: 120px;
-         border-radius: 60px;
+         border-radius: 50px;
          background: transparent;
+         border: 2px solid white;
 }
 .image{
-      height:110px;
-      width: 110px;
+      height:120px;
+      width: 120px;
+     
+      border-radius: 60px;
+   
     
    
 }
+.images{
+      height:120px;
+      width: 120px;
+      border: 2px solid green;
+      border-radius: 60px;
+   
+    
+   
+}
+h3{
+       display: block;
+}
+.js-choice{
+        margin:34px;
+            font-size: 34px;
+            font-family: arial;
+            text-align: center;
+      }
+ .js-result{
+            position: relative;
+           left: 30%;
+           margin: 20px;
+ }
+ .js-score{
+      display:inline;
+           position: relative;
+           left: 35%;
+           background:linear-gradient(90deg ,black,blue);
+           font-size: 45px;
+ }
+ .js-reset{
+         position: relative;
+         display: block;
+         left: 30%;
+         top:60%;
+         border-radius: 30px;
+         height: 8vh;
+         width:35vw;
+         margin:20px;
+         background: linear-gradient(to bottom,red,rgb(61, 59, 59));
+         color:white;
+         font-family: arial;
+         font-size: 35px;
+       
+         padding-bottom: 15px;
+ }
